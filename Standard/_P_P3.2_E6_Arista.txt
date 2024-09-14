@@ -1,0 +1,69 @@
+{
+  "designator": "P3.2",
+  "name": "E-6",
+  "category": "E6",
+  "expanded_title": " - Arista",
+  "steps": [
+    {
+      "name": "HEAT",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+    {
+      "name": "DEV",
+      "time": 390,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 41,
+      "max_temperature": 42,
+      "formula_designator": "3.2.1",
+      "logo_text": "Arista\nE6 DEV"
+    },
+    {
+      "name": "RINSE",
+      "time": 120,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 30,
+      "max_temperature": 42
+    },
+    {
+      "name": "CDEV",
+      "time": 270,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 41,
+      "max_temperature": 40,
+      "formula_designator": "3.2.2",
+      "logo_text": "Arista\nE6 CDEV"
+    },
+    {
+      "name": "RINSE",
+      "time": 120,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 30,
+      "max_temperature": 40
+    },
+    {
+      "name": "BLIX",
+      "time": 390,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 41,
+      "max_temperature": 40,
+      "formula_designator": "3.2.3",
+      "logo_text": "Arista\nE6 BLIX"
+    },
+    {
+      "name": "RINSE",
+      "time": 300,
+      "agitation": "Roll",
+      "compensation": "Off"
+    }
+  ]
+}

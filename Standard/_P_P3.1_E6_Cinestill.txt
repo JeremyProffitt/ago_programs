@@ -1,0 +1,63 @@
+{
+  "designator": "P3.1",
+  "name": "E-6",
+  "category": "E6",
+  "expanded_title": " - Cinestill D6",
+  "steps": [
+    {
+      "name": "DEV",
+      "time": 360,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 40,
+      "max_temperature": 42,
+      "formula_designator": "3.1.1",
+      "logo_text": "Cinestill\nE6(D6) DEV"
+    },
+    {
+      "name": "RINSE",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 30,
+      "max_temperature": 42
+    },
+    {
+      "name": "CDEV",
+      "time": 360,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 40,
+      "max_temperature": 40,
+      "formula_designator": "3.1.2",
+      "logo_text": "Cinestill\nE6 CDEV"
+    },
+    {
+      "name": "RINSE",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 30,
+      "max_temperature": 40
+    },
+    {
+      "name": "BLIX",
+      "time": 360,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 40,
+      "max_temperature": 40,
+      "formula_designator": "3.1.3",
+      "logo_text": "Cinestill\nE6 BLIX"
+    },
+    {
+      "name": "RINSE",
+      "time": 480,
+      "agitation": "Roll",
+      "compensation": "Off"
+    }
+  ]
+}

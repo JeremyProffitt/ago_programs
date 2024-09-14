@@ -1,0 +1,25 @@
+{
+  "designator": "P1.2",
+  "name": "B&W",
+  "category": "BW",
+  "expanded_title": " - Cinestill DF96",
+  "steps": [
+    {
+      "name": "DEV",
+      "time": 240,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 18,
+      "rated_temperature": 23.8,
+      "max_temperature": 35,
+      "formula_designator": "1.2.1",
+      "logo_text": "Cinestill\nDF96 DEV"
+    },
+    {
+      "name": "RINSE",
+      "time": 300,
+      "agitation": "Roll",
+      "compensation": "Off"
+    }
+  ]
+}

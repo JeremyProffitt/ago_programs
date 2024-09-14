@@ -1,0 +1,55 @@
+{
+  "designator": "P2.2",
+  "name": "C-41",
+  "category": "C41",
+  "expanded_title": " - Bellini",
+  "steps": [
+    {
+      "name": "HEAT",
+      "time": 180,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+    {
+      "name": "DEV",
+      "time": 195,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 38,
+      "max_temperature": 40,
+      "formula_designator": "2.2.1",
+      "logo_text": "Bellini\nC-41 DEV"
+    },
+    {
+      "name": "BLEA",
+      "time": 45,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 32,
+      "rated_temperature": 38,
+      "max_temperature": 38,
+      "formula_designator": "2.2.2",
+      "logo_text": "Bellini\nC-41 BLEA"
+    },
+    {
+      "name": "FIX",
+      "time": 90,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 32,
+      "rated_temperature": 38,
+      "max_temperature": 38,
+      "formula_designator": "2.2.3",
+      "logo_text": "Bellini\nC-41 FIX"
+    },
+    {
+      "name": "STAB",
+      "time": 180,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 32,
+      "max_temperature": 38
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "designator": "P2.4",
+  "name": "C-41",
+  "category": "C41",
+  "expanded_title": " - Arista, Unicolor",
+  "steps": [
+    {
+      "name": "HEAT",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+    {
+      "name": "DEV",
+      "time": 210,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 40,
+      "max_temperature": 42,
+      "formula_designator": "2.4.1",
+      "logo_text": "Arista\nC-41 DEV"
+    },
+    {
+      "name": "BLIX",
+      "time": 390,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 30,
+      "rated_temperature": 40,
+      "max_temperature": 40,
+      "formula_designator": "2.4.2",
+      "logo_text": "Arista\nC-41 BLIX"
+    },
+    {
+      "name": "RINSE",
+      "time": 180,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 35,
+      "max_temperature": 40
+    },
+    {
+      "name": "STAB",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Off"
+    }
+  ]
+}

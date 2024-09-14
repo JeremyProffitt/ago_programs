@@ -1,0 +1,39 @@
+{
+  "designator": "P1.1",
+  "name": "B&W",
+  "category": "BW",
+  "expanded_title": " - General",
+  "steps": [
+    {
+      "name": "DEV",
+      "time": 600,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 18,
+      "rated_temperature": 20,
+      "max_temperature": 24,
+      "formula_designator": "1.1.1",
+      "logo_text": "B&W DEV"
+    },
+    {
+      "name": "STOP",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+    {
+      "name": "FIX",
+      "time": 300,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 18,
+      "max_temperature": 29
+    },
+    {
+      "name": "RINSE",
+      "time": 600,
+      "agitation": "Roll",
+      "compensation": "Off"
+    }
+  ]
+}

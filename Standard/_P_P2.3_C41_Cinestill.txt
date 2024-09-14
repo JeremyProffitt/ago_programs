@@ -1,0 +1,52 @@
+{
+  "designator": "P2.3",
+  "name": "C-41",
+  "category": "C41",
+  "expanded_title": " - Cinestill",
+  "steps": [
+    {
+      "name": "HEAT",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+    {
+      "name": "DEV",
+      "time": 210,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 29,
+      "rated_temperature": 39,
+      "max_temperature": 41,
+      "formula_designator": "2.3.1",
+      "logo_text": "Cinestill\nC-41 DEV"
+    },
+    {
+      "name": "BLIX",
+      "time": 360,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 24,
+      "rated_temperature": 39,
+      "max_temperature": 40,
+      "formula_designator": "2.3.2",
+      "logo_text": "Cinestill\nC-41 BLIX"
+    },
+    {
+      "name": "RINSE",
+      "time": 180,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 24,
+      "max_temperature": 40
+    },
+    {
+      "name": "STAB",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 17,
+      "max_temperature": 25
+    }
+  ]
+}

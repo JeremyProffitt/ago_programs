@@ -1,0 +1,42 @@
+{
+  "designator": "P4.1",
+  "name": "ECN-2",
+  "category": "ECN2",
+  "expanded_title": " - Cinestill",
+  "steps": [
+    {
+      "name": "HEAT",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+    {
+      "name": "DEV",
+      "time": 210,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 32,
+      "rated_temperature": 41,
+      "max_temperature": 42,
+      "formula_designator": "4.1.1",
+      "logo_text": "Cinestill\nECN-2 DEV"
+    },
+    {
+      "name": "BLIX",
+      "time": 360,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 24,
+      "rated_temperature": 40,
+      "max_temperature": 40,
+      "formula_designator": "4.1.2",
+      "logo_text": "Cinestill\nECN-2 BLIX"
+    },
+    {
+      "name": "RINSE",
+      "time": 180,
+      "agitation": "Roll",
+      "compensation": "Off"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "designator": "P0.0",
+  "name": "TEST",
+  "category": "BW",
+  "expanded_title": "",
+  "steps": [
+    {
+      "name": "DEV",
+      "time": 600,
+      "agitation": "Roll",
+      "compensation": "Off"
+    }
+  ]
+}

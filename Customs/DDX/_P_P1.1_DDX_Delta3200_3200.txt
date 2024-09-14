@@ -1,0 +1,53 @@
+{
+  "designator": "C1.1",
+  "name": "DDX Delta 3200",
+  "category": "BW",
+  "expanded_title": " @ 3200",
+  "steps": [
+    {
+      "name": "DEV",
+      "time": 570,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 18,
+      "rated_temperature": 20,
+      "max_temperature": 24,
+      "formula_designator": "1.1.1",
+      "logo_text": "B&W DEV"
+    },
+    {
+      "name": "STOP",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+    {
+      "name": "FIX",
+      "time": 300,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 18,
+      "max_temperature": 29
+    },
+    {
+      "name": "RINSE",
+      "time": 600,
+      "agitation": "Roll",
+      "compensation": "Off"
+    },
+     {
+      "name": "HYPO CLEAR",
+      "time": 300,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 18,
+      "max_temperature": 29
+    },
+    {
+      "name": "RINSE",
+      "time": 600,
+      "agitation": "Roll",
+      "compensation": "Off"
+    }
+  ]
+}

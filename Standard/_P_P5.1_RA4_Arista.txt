@@ -1,0 +1,38 @@
+{
+  "designator": "P5.1",
+  "name": "RA-4",
+  "category": "Other",
+  "expanded_title": " - Arista",
+  "steps": [
+    {
+      "name": "DEV",
+      "time": 70,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 24,
+      "rated_temperature": 32,
+      "max_temperature": 32,
+      "formula_designator": "5.1.1",
+      "logo_text": "Arista\nRA-4 DEV"
+    },
+    {
+      "name": "BLIX",
+      "time": 60,
+      "agitation": "Roll",
+      "compensation": "On",
+      "min_temperature": 24,
+      "rated_temperature": 32,
+      "max_temperature": 32,
+      "formula_designator": "5.1.2",
+      "logo_text": "Arista\nRA-4 BLIX"
+    },
+    {
+      "name": "RINSE",
+      "time": 120,
+      "agitation": "Roll",
+      "compensation": "Mon",
+      "min_temperature": 24,
+      "max_temperature": 43
+    }
+  ]
+}
